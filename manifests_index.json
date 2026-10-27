@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "repository": "https://github.com/Sigmanih/SigmaStudio-Manifesti",
-  "total": 20,
+  "repository": "https://github.com/Sigmanih/SigmaStudio-Ruoli",
+  "total": 25,
   "manifests": [
     {
       "id": "sigma_assistant",
@@ -70,7 +70,12 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/sigma_architect.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/sigma_architect.md",
+      "risorse": {
+        "immagine": "sigma_architect/immagine.jpg",
+        "modello3d": "sigma_architect/modello.glb",
+        "dettagli": "sigma_architect/modello.json"
+      }
     },
     {
       "id": "code_architect",
@@ -93,7 +98,12 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/code_architect.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/code_architect.md",
+      "risorse": {
+        "immagine": "code_architect/immagine.jpg",
+        "modello3d": "code_architect/modello.glb",
+        "dettagli": "code_architect/modello.json"
+      }
     },
     {
       "id": "math_researcher",
@@ -139,7 +149,12 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/test_engineer.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/test_engineer.md",
+      "risorse": {
+        "immagine": "test_engineer/immagine.jpg",
+        "modello3d": "test_engineer/modello.glb",
+        "dettagli": "test_engineer/modello.json"
+      }
     },
     {
       "id": "viz_designer",
@@ -162,7 +177,12 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/viz_designer.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/viz_designer.md",
+      "risorse": {
+        "immagine": "viz_designer/immagine.jpg",
+        "modello3d": "viz_designer/modello.glb",
+        "dettagli": "viz_designer/modello.json"
+      }
     },
     {
       "id": "proof_reviewer",
@@ -185,7 +205,12 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/proof_reviewer.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/proof_reviewer.md",
+      "risorse": {
+        "immagine": "proof_reviewer/immagine.jpg",
+        "modello3d": "proof_reviewer/modello.glb",
+        "dettagli": "proof_reviewer/modello.json"
+      }
     },
     {
       "id": "physics_professor",
@@ -208,7 +233,12 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/physics_professor.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/physics_professor.md",
+      "risorse": {
+        "immagine": "physics_professor/immagine.jpg",
+        "modello3d": "physics_professor/modello.glb",
+        "dettagli": "physics_professor/modello.json"
+      }
     },
     {
       "id": "chemistry_professor",
@@ -369,7 +399,12 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/medico_divulgatore.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/medico_divulgatore.md",
+      "risorse": {
+        "immagine": "medico_divulgatore/immagine.jpg",
+        "modello3d": "medico_divulgatore/modello.glb",
+        "dettagli": "medico_divulgatore/modello.json"
+      }
     },
     {
       "id": "financial_analyst",
@@ -462,6 +497,140 @@
       "numCtx": 32768,
       "is_default": false,
       "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/ingegnere_strutturista.md"
+    },
+    {
+      "id": "direttore_fotografia",
+      "filename": "direttore_fotografia.md",
+      "name": "Direttore Fotografia",
+      "role": "Direttore della Fotografia & Prompt Artist",
+      "category": "Comunicazione & Creatività",
+      "domainColor": "#8b5cf6",
+      "icon": "📷",
+      "description": "Governi la luce, le ottiche, la profondità di campo, la colorimetria e l'estetica visiva di ogni fotogramma prodotto in Sigma Studio. Traduci l'intenzione registica in precise scelte illuminotecniche e in prompt cinematografici ad alta fedeltà pronti per i modelli di generazione visiva e video (ComfyUI, SDXL, LTX-Video, Wan, HunyuanVideo, Midjourney-style).",
+      "capabilities": [
+        "Lighting Design",
+        "Scelte Ottiche e Focali",
+        "Palette Cromatica & LUT",
+        "Composizione dell'Immagine",
+        "Prompt Cinematografici per Text-to-Image e Text-to-Video"
+      ],
+      "temperature": 0.3,
+      "baseModel": "sigma",
+      "numCtx": 32768,
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/direttore_fotografia.md",
+      "risorse": {
+        "immagine": "direttore_fotografia/immagine.jpg",
+        "modello3d": "direttore_fotografia/modello.glb",
+        "dettagli": "direttore_fotografia/modello.json"
+      }
+    },
+    {
+      "id": "montatore_video",
+      "filename": "montatore_video.md",
+      "name": "Montatore Video",
+      "role": "Montatore Video & Editor di Post-Produzione",
+      "category": "Comunicazione & Creatività",
+      "domainColor": "#06b6d4",
+      "icon": "✂️",
+      "description": "Governi il tempo, il ritmo e la continuità narrativa delle sequenze video in Sigma Studio. Prendi i clip generati o registrati e costruisci una timeline fluida, coerente e cinematografica, definendo dove tagliare, quali raccordi applicare e come sincronizzare audio, dialoghi e immagini nell'editor video di Sigma Studio.",
+      "capabilities": [
+        "Montaggio di Scena",
+        "Raccordi e Tagli Dinamici (J-Cut/L-Cut/Match Cut)",
+        "Ritmo e Pacing Narrativo",
+        "Gestione Timeline e Clip",
+        "Sincronizzazione Audio/Video"
+      ],
+      "temperature": 0.25,
+      "baseModel": "sigma",
+      "numCtx": 32768,
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/montatore_video.md",
+      "risorse": {
+        "immagine": "montatore_video/immagine.jpg",
+        "modello3d": "montatore_video/modello.glb",
+        "dettagli": "montatore_video/modello.json"
+      }
+    },
+    {
+      "id": "sound_designer",
+      "filename": "sound_designer.md",
+      "name": "Sound Designer",
+      "role": "Sound Designer & Compositore Audio",
+      "category": "Comunicazione & Creatività",
+      "domainColor": "#10b981",
+      "icon": "🎵",
+      "description": "Governi l'universo acustico, la colonna sonora, gli effetti sonori e l'atmosfera immersiva di ogni video e produzione in Sigma Studio. Componi la stratificazione sonora, selezioni gli effetti Foley, definisci il mood musicale e curi il missaggio per garantire equilibrio tra colonna sonora, suoni d'ambiente e voci/dialoghi.",
+      "capabilities": [
+        "Sound Design Ambientale",
+        "Effetti Sonori Foley",
+        "Colonna Sonora & Scoring",
+        "Mix e Mastering Audio",
+        "Atmosfere Emotive",
+        "Sincronizzazione Vocale"
+      ],
+      "temperature": 0.3,
+      "baseModel": "sigma",
+      "numCtx": 32768,
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/sound_designer.md",
+      "risorse": {
+        "immagine": "sound_designer/immagine.jpg",
+        "modello3d": "sound_designer/modello.glb",
+        "dettagli": "sound_designer/modello.json"
+      }
+    },
+    {
+      "id": "regista_cinematografico",
+      "filename": "regista_cinematografico.md",
+      "name": "Regista Cinematografico",
+      "role": "Regista Cinematografico & Direttore Creativo",
+      "category": "Comunicazione & Creatività",
+      "domainColor": "#ff007a",
+      "icon": "🎬",
+      "description": "Dirigi la visione artistica, visiva ed espressiva di ogni produzione video e cinematografica in Sigma Studio. Il tuo compito è trasformare un'idea, una sinossi o un copione in una regia coerente, emozionante e tecnicamente impeccabile. Definisci le inquadrature, i movimenti di camera, la recitazione dei personaggi (reali o sintetici generati da AI), il ritmo drammaturgico e l'impatto visivo complessivo di ogni scena.",
+      "capabilities": [
+        "Regia Cinematografica",
+        "Storyboarding",
+        "Scelte d'Inquadratura",
+        "Direzione Attori e Personaggi",
+        "Continuità Visiva",
+        "Grammatica Audiovisiva",
+        "Piani Sequenza"
+      ],
+      "temperature": 0.35,
+      "baseModel": "sigma",
+      "numCtx": 32768,
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/regista_cinematografico.md",
+      "risorse": {
+        "immagine": "regista_cinematografico/immagine.jpg",
+        "modello3d": "regista_cinematografico/modello.glb",
+        "dettagli": "regista_cinematografico/modello.json"
+      }
+    },
+    {
+      "id": "sceneggiatore",
+      "filename": "sceneggiatore.md",
+      "name": "Sceneggiatore",
+      "role": "Sceneggiatore Cinematografico & Storyteller",
+      "category": "Comunicazione & Creatività",
+      "domainColor": "#f59e0b",
+      "icon": "🎞️",
+      "description": "Scrivi, progetti e affini sceneggiature, soggetti, copioni e dialoghi cinematografici per cortometraggi, produzioni video e narrazioni interattive su Sigma Studio. Padroneggi la drammaturgia, la struttura narrativa in tre atti, il viaggio dell'eroe e la creazione di dialoghi autentici, incisivi e privi di stereotipi banali.",
+      "capabilities": [
+        "Sceneggiature Standard (Screenplay)",
+        "Archi Narrativi dei Personaggi",
+        "Dialoghi Cinematografici",
+        "Struttura in 3 Atti",
+        "Show Don't Tell",
+        "Logline e Sinossi"
+      ],
+      "temperature": 0.4,
+      "baseModel": "sigma",
+      "numCtx": 32768,
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/sceneggiatore.md",
+      "risorse": {
+        "immagine": "sceneggiatore/immagine.jpg",
+        "modello3d": "sceneggiatore/modello.glb",
+        "dettagli": "sceneggiatore/modello.json"
+      }
     }
   ]
 }

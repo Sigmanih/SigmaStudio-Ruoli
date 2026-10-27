@@ -30,6 +30,25 @@ Questo catalogo raccoglie i contratti cognitivi, i prompt di sistema, i parametr
 | **Docente di Lingue & Traduzione** | [`docente_lingue.md`](./docente_lingue.md) | Studenti & Università | Language Tutor & Contextual Translator | `0.3` | Studenti, Viaggiatori e Professionisti Internazionali |
 | **Tutor Universitario di Matematica** | [`tutor_matematica.md`](./tutor_matematica.md) | Studenti & Università | University Math Tutor & Exercise Solver | `0.15` | Studenti Universitari & Scuole Superiori |
 | **Valutatore Accademico & Esaminatore** | [`academic_examiner.md`](./academic_examiner.md) | Studenti & Università | Academic Examiner & Curriculum Assessor | `0.3` | Docenti, Formatori e Studenti Universitari |
+| **Regista Cinematografico** | [`regista_cinematografico.md`](./regista_cinematografico.md) | Comunicazione & Creatività | Regista Cinematografico & Direttore Creativo | `0.35` | Registi, Videomaker e Creator |
+| **Sceneggiatore** | [`sceneggiatore.md`](./sceneggiatore.md) | Comunicazione & Creatività | Sceneggiatore Cinematografico & Storyteller | `0.4` | Sceneggiatori, Scrittori e Creator |
+| **Direttore Fotografia** | [`direttore_fotografia.md`](./direttore_fotografia.md) | Comunicazione & Creatività | Direttore della Fotografia & Prompt Artist | `0.3` | Registi, Fotografi e Prompt Artist |
+| **Montatore Video** | [`montatore_video.md`](./montatore_video.md) | Comunicazione & Creatività | Montatore Video & Editor di Post-Produzione | `0.25` | Montatori, Videomaker e Creator |
+| **Sound Designer** | [`sound_designer.md`](./sound_designer.md) | Comunicazione & Creatività | Sound Designer & Compositore Audio | `0.3` | Sound Designer, Musicisti e Creator |
+
+---
+
+## 🧩 Struttura di un Ruolo
+
+Ogni ruolo è il suo manifesto `<id>.md` in radice, più una cartella `<id>/` con ciò che gli compete:
+
+| File | Contenuto |
+| :--- | :--- |
+| `<id>/immagine.jpg` | Ritratto dell'agente |
+| `<id>/modello.glb` | Busto 3D dell'agente per la plancia della Home (~14k triangoli, texture 1024) |
+| `<id>/modello.json` | Dettagli del modello: altezza del collo per l'animazione della testa, generatore, data |
+
+L'indice `manifests_index.json` elenca le risorse di ogni ruolo nel campo `risorse`: Sigma Studio le scarica insieme al manifesto e le rimuove quando il ruolo viene disinstallato. I busti sono ricostruiti dalle foto con [TRELLIS](https://github.com/microsoft/TRELLIS) (licenza MIT).
 
 ---
 

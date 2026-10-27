@@ -1,0 +1,13 @@
+{
+  "versione": 1,
+  "file": "modello.glb",
+  "foto": "immagine.jpg",
+  "foto_originale": "regista_cinematografico.jpg",
+  "collo": 0.352,
+  "triangoli": 14000,
+  "texture": 1024,
+  "kb": 873,
+  "generatore": "microsoft/TRELLIS-image-large (licenza MIT)",
+  "pipeline": "tools/agenti_3d: ritaglio BiRefNet, TRELLIS, decimazione e bake in Blender",
+  "data": "2026-10-27"
+}
