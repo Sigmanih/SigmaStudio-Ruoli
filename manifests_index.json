@@ -629,7 +629,8 @@
       "risorse": {
         "immagine": "sceneggiatore/immagine.jpg",
         "modello3d": "sceneggiatore/modello.glb",
-        "dettagli": "sceneggiatore/modello.json"
+        "dettagli": "sceneggiatore/modello.json",
+        "personaggio": "sceneggiatore/personaggio.glb"
       }
     }
   ]

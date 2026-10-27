@@ -47,6 +47,7 @@ Ogni ruolo è il suo manifesto `<id>.md` in radice, più una cartella `<id>/` co
 | `<id>/immagine.jpg` | Ritratto dell'agente |
 | `<id>/modello.glb` | Busto 3D dell'agente per la plancia della Home (~14k triangoli, texture 1024) |
 | `<id>/modello.json` | Dettagli del modello: altezza del collo per l'animazione della testa, generatore, data |
+| `<id>/personaggio.glb` | Facoltativo: figura intera con scheletro, che cammina nella plancia con le animazioni CC0 di Quaternius |
 
 L'indice `manifests_index.json` elenca le risorse di ogni ruolo nel campo `risorse`: Sigma Studio le scarica insieme al manifesto e le rimuove quando il ruolo viene disinstallato. I busti sono ricostruiti dalle foto con [TRELLIS](https://github.com/microsoft/TRELLIS) (licenza MIT).
 
