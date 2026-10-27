@@ -74,7 +74,8 @@
       "risorse": {
         "immagine": "sigma_architect/immagine.jpg",
         "modello3d": "sigma_architect/modello.glb",
-        "dettagli": "sigma_architect/modello.json"
+        "dettagli": "sigma_architect/modello.json",
+        "personaggio": "sigma_architect/personaggio.glb"
       }
     },
     {
@@ -102,7 +103,8 @@
       "risorse": {
         "immagine": "code_architect/immagine.jpg",
         "modello3d": "code_architect/modello.glb",
-        "dettagli": "code_architect/modello.json"
+        "dettagli": "code_architect/modello.json",
+        "personaggio": "code_architect/personaggio.glb"
       }
     },
     {
@@ -153,7 +155,8 @@
       "risorse": {
         "immagine": "test_engineer/immagine.jpg",
         "modello3d": "test_engineer/modello.glb",
-        "dettagli": "test_engineer/modello.json"
+        "dettagli": "test_engineer/modello.json",
+        "personaggio": "test_engineer/personaggio.glb"
       }
     },
     {
@@ -181,7 +184,8 @@
       "risorse": {
         "immagine": "viz_designer/immagine.jpg",
         "modello3d": "viz_designer/modello.glb",
-        "dettagli": "viz_designer/modello.json"
+        "dettagli": "viz_designer/modello.json",
+        "personaggio": "viz_designer/personaggio.glb"
       }
     },
     {
@@ -209,7 +213,8 @@
       "risorse": {
         "immagine": "proof_reviewer/immagine.jpg",
         "modello3d": "proof_reviewer/modello.glb",
-        "dettagli": "proof_reviewer/modello.json"
+        "dettagli": "proof_reviewer/modello.json",
+        "personaggio": "proof_reviewer/personaggio.glb"
       }
     },
     {
@@ -237,7 +242,8 @@
       "risorse": {
         "immagine": "physics_professor/immagine.jpg",
         "modello3d": "physics_professor/modello.glb",
-        "dettagli": "physics_professor/modello.json"
+        "dettagli": "physics_professor/modello.json",
+        "personaggio": "physics_professor/personaggio.glb"
       }
     },
     {
@@ -403,7 +409,8 @@
       "risorse": {
         "immagine": "medico_divulgatore/immagine.jpg",
         "modello3d": "medico_divulgatore/modello.glb",
-        "dettagli": "medico_divulgatore/modello.json"
+        "dettagli": "medico_divulgatore/modello.json",
+        "personaggio": "medico_divulgatore/personaggio.glb"
       }
     },
     {
@@ -521,7 +528,8 @@
       "risorse": {
         "immagine": "direttore_fotografia/immagine.jpg",
         "modello3d": "direttore_fotografia/modello.glb",
-        "dettagli": "direttore_fotografia/modello.json"
+        "dettagli": "direttore_fotografia/modello.json",
+        "personaggio": "direttore_fotografia/personaggio.glb"
       }
     },
     {
@@ -547,7 +555,8 @@
       "risorse": {
         "immagine": "montatore_video/immagine.jpg",
         "modello3d": "montatore_video/modello.glb",
-        "dettagli": "montatore_video/modello.json"
+        "dettagli": "montatore_video/modello.json",
+        "personaggio": "montatore_video/personaggio.glb"
       }
     },
     {
@@ -574,7 +583,8 @@
       "risorse": {
         "immagine": "sound_designer/immagine.jpg",
         "modello3d": "sound_designer/modello.glb",
-        "dettagli": "sound_designer/modello.json"
+        "dettagli": "sound_designer/modello.json",
+        "personaggio": "sound_designer/personaggio.glb"
       }
     },
     {
@@ -602,7 +612,8 @@
       "risorse": {
         "immagine": "regista_cinematografico/immagine.jpg",
         "modello3d": "regista_cinematografico/modello.glb",
-        "dettagli": "regista_cinematografico/modello.json"
+        "dettagli": "regista_cinematografico/modello.json",
+        "personaggio": "regista_cinematografico/personaggio.glb"
       }
     },
     {
