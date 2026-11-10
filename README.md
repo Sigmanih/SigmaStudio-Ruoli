@@ -45,11 +45,11 @@ Ogni ruolo è il suo manifesto `<id>.md` in radice, più una cartella `<id>/` co
 | File | Contenuto |
 | :--- | :--- |
 | `<id>/immagine.jpg` | Ritratto dell'agente |
-| `<id>/modello.glb` | Busto 3D dell'agente per la plancia della Home (~14k triangoli, texture 1024) |
-| `<id>/modello.json` | Dettagli del modello: altezza del collo per l'animazione della testa, generatore, data |
-| `<id>/personaggio.glb` | Facoltativo: figura intera con scheletro, che cammina nella plancia con le animazioni CC0 di Quaternius |
+| `<id>/personaggio.glb` | Figura intera in posa rilassata con scheletro Quaternius CC0, animata nella plancia della Home (circa 120k triangoli, texture 4096) |
+| `<id>/modello.json` | Dettagli di generazione e qualità del personaggio |
+| `<id>/modello.glb` | Busto legacy facoltativo, conservato per compatibilità con i client precedenti |
 
-L'indice `manifests_index.json` elenca le risorse di ogni ruolo nel campo `risorse`: Sigma Studio le scarica insieme al manifesto e le rimuove quando il ruolo viene disinstallato. I busti sono ricostruiti dalle foto con [TRELLIS](https://github.com/microsoft/TRELLIS) (licenza MIT).
+L'indice `manifests_index.json` elenca le risorse distribuite di ogni ruolo nel campo `risorse`: Sigma Studio le scarica insieme al manifesto e le rimuove quando il ruolo viene disinstallato. I personaggi sono ricostruiti dalle foto con [TRELLIS](https://github.com/microsoft/TRELLIS) (licenza MIT); la foto viene proiettata sul fronte e la posa tecnica di rigging viene convertita in una posizione naturale di riposo. Gli agenti sono animati con la Universal Animation Library di Quaternius (CC0).
 
 ---
 
