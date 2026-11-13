@@ -1,5 +1,7 @@
 FROM sigma
 
+# Image: /ruoli/sigma_assistant/immagine.png?v=4
+
 # --- METADATA & DOMAIN SPECIFICATION ---
 # Role: Cognitive Front-Desk & Intelligent Router
 # Category: Architettura & Kernel

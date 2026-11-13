@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "repository": "https://github.com/Sigmanih/SigmaStudio-Ruoli",
-  "total": 25,
+  "total": 26,
   "manifests": [
     {
       "id": "sigma_assistant",
@@ -24,7 +24,12 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": true,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/sigma_assistant.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/sigma_assistant.md",
+      "risorse": {
+        "personaggio": "sigma_assistant/personaggio.glb",
+        "dettagli": "sigma_assistant/modello.json",
+        "immagine": "sigma_assistant/immagine.png"
+      }
     },
     {
       "id": "sigma_admin",
@@ -47,7 +52,11 @@
       "baseModel": "sigma",
       "numCtx": 65536,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/sigma_admin.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/sigma_admin.md",
+      "risorse": {
+        "personaggio": "sigma_admin/personaggio.glb",
+        "dettagli": "sigma_admin/modello.json"
+      }
     },
     {
       "id": "sigma_architect",
@@ -70,11 +79,11 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/sigma_architect.md",
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/sigma_architect.md",
       "risorse": {
-        "immagine": "sigma_architect/immagine.jpg",
         "personaggio": "sigma_architect/personaggio.glb",
-        "dettagli": "sigma_architect/modello.json"
+        "dettagli": "sigma_architect/modello.json",
+        "immagine": "sigma_architect/immagine.jpg"
       }
     },
     {
@@ -98,11 +107,11 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/code_architect.md",
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/code_architect.md",
       "risorse": {
-        "immagine": "code_architect/immagine.jpg",
         "personaggio": "code_architect/personaggio.glb",
-        "dettagli": "code_architect/modello.json"
+        "dettagli": "code_architect/modello.json",
+        "immagine": "code_architect/immagine.jpg"
       }
     },
     {
@@ -126,7 +135,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/math_researcher.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/math_researcher.md"
     },
     {
       "id": "test_engineer",
@@ -149,11 +158,11 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/test_engineer.md",
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/test_engineer.md",
       "risorse": {
-        "immagine": "test_engineer/immagine.jpg",
         "personaggio": "test_engineer/personaggio.glb",
-        "dettagli": "test_engineer/modello.json"
+        "dettagli": "test_engineer/modello.json",
+        "immagine": "test_engineer/immagine.jpg"
       }
     },
     {
@@ -177,11 +186,11 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/viz_designer.md",
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/viz_designer.md",
       "risorse": {
-        "immagine": "viz_designer/immagine.jpg",
         "personaggio": "viz_designer/personaggio.glb",
-        "dettagli": "viz_designer/modello.json"
+        "dettagli": "viz_designer/modello.json",
+        "immagine": "viz_designer/immagine.jpg"
       }
     },
     {
@@ -205,11 +214,11 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/proof_reviewer.md",
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/proof_reviewer.md",
       "risorse": {
-        "immagine": "proof_reviewer/immagine.jpg",
         "personaggio": "proof_reviewer/personaggio.glb",
-        "dettagli": "proof_reviewer/modello.json"
+        "dettagli": "proof_reviewer/modello.json",
+        "immagine": "proof_reviewer/immagine.jpg"
       }
     },
     {
@@ -233,11 +242,11 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/physics_professor.md",
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/physics_professor.md",
       "risorse": {
-        "immagine": "physics_professor/immagine.jpg",
         "personaggio": "physics_professor/personaggio.glb",
-        "dettagli": "physics_professor/modello.json"
+        "dettagli": "physics_professor/modello.json",
+        "immagine": "physics_professor/immagine.jpg"
       }
     },
     {
@@ -261,7 +270,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/chemistry_professor.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/chemistry_professor.md"
     },
     {
       "id": "academic_examiner",
@@ -284,7 +293,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/academic_examiner.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/academic_examiner.md"
     },
     {
       "id": "online_journalist",
@@ -307,7 +316,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/online_journalist.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/online_journalist.md"
     },
     {
       "id": "docente_lingue",
@@ -330,7 +339,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/docente_lingue.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/docente_lingue.md"
     },
     {
       "id": "tutor_matematica",
@@ -353,7 +362,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/tutor_matematica.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/tutor_matematica.md"
     },
     {
       "id": "consulente_legale",
@@ -376,7 +385,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/consulente_legale.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/consulente_legale.md"
     },
     {
       "id": "medico_divulgatore",
@@ -399,11 +408,11 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/medico_divulgatore.md",
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/medico_divulgatore.md",
       "risorse": {
-        "immagine": "medico_divulgatore/immagine.jpg",
         "personaggio": "medico_divulgatore/personaggio.glb",
-        "dettagli": "medico_divulgatore/modello.json"
+        "dettagli": "medico_divulgatore/modello.json",
+        "immagine": "medico_divulgatore/immagine.jpg"
       }
     },
     {
@@ -427,7 +436,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/financial_analyst.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/financial_analyst.md"
     },
     {
       "id": "data_scientist",
@@ -450,7 +459,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/data_scientist.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/data_scientist.md"
     },
     {
       "id": "copywriter_creativo",
@@ -473,7 +482,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/copywriter_creativo.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/copywriter_creativo.md"
     },
     {
       "id": "ingegnere_strutturista",
@@ -496,7 +505,7 @@
       "baseModel": "sigma",
       "numCtx": 32768,
       "is_default": false,
-      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Manifesti/main/ingegnere_strutturista.md"
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/ingegnere_strutturista.md"
     },
     {
       "id": "direttore_fotografia",
@@ -519,9 +528,9 @@
       "numCtx": 32768,
       "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/direttore_fotografia.md",
       "risorse": {
-        "immagine": "direttore_fotografia/immagine.jpg",
         "personaggio": "direttore_fotografia/personaggio.glb",
-        "dettagli": "direttore_fotografia/modello.json"
+        "dettagli": "direttore_fotografia/modello.json",
+        "immagine": "direttore_fotografia/immagine.png"
       }
     },
     {
@@ -545,9 +554,9 @@
       "numCtx": 32768,
       "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/montatore_video.md",
       "risorse": {
-        "immagine": "montatore_video/immagine.jpg",
         "personaggio": "montatore_video/personaggio.glb",
-        "dettagli": "montatore_video/modello.json"
+        "dettagli": "montatore_video/modello.json",
+        "immagine": "montatore_video/immagine.jpg"
       }
     },
     {
@@ -572,9 +581,9 @@
       "numCtx": 32768,
       "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/sound_designer.md",
       "risorse": {
-        "immagine": "sound_designer/immagine.jpg",
         "personaggio": "sound_designer/personaggio.glb",
-        "dettagli": "sound_designer/modello.json"
+        "dettagli": "sound_designer/modello.json",
+        "immagine": "sound_designer/immagine.jpg"
       }
     },
     {
@@ -600,9 +609,9 @@
       "numCtx": 32768,
       "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/regista_cinematografico.md",
       "risorse": {
-        "immagine": "regista_cinematografico/immagine.jpg",
         "personaggio": "regista_cinematografico/personaggio.glb",
-        "dettagli": "regista_cinematografico/modello.json"
+        "dettagli": "regista_cinematografico/modello.json",
+        "immagine": "regista_cinematografico/immagine.jpg"
       }
     },
     {
@@ -627,10 +636,37 @@
       "numCtx": 32768,
       "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/sceneggiatore.md",
       "risorse": {
-        "immagine": "sceneggiatore/immagine.jpg",
         "personaggio": "sceneggiatore/personaggio.glb",
-        "dettagli": "sceneggiatore/modello.json"
+        "dettagli": "sceneggiatore/modello.json",
+        "immagine": "sceneggiatore/immagine.jpg"
       }
+    },
+    {
+      "id": "sigma_hardware_engineer",
+      "filename": "sigma_hardware_engineer.md",
+      "name": "Sigma Hardware Engineer",
+      "role": "Lead Hardware & KiCad PCB Engineer",
+      "category": "Elettronica & Hardware",
+      "domainColor": "#0d6efd",
+      "icon": "Zap",
+      "capabilities": [
+        "Progettazione Circuitale KiCad",
+        "Layout PCB",
+        "DRC/ERC Headless",
+        "IPC-2221",
+        "Ricottura Simulata",
+        "DFM JLCPCB"
+      ],
+      "temperature": 0.15,
+      "baseModel": "sigma",
+      "numCtx": 32768,
+      "workDomain": "hardware",
+      "risorse": {
+        "personaggio": "sigma_hardware_engineer/personaggio.glb",
+        "dettagli": "sigma_hardware_engineer/modello.json",
+        "immagine": "sigma_hardware_engineer/immagine.png"
+      },
+      "download_url": "https://raw.githubusercontent.com/Sigmanih/SigmaStudio-Ruoli/main/sigma_hardware_engineer.md"
     }
   ]
 }

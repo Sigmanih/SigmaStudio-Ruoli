@@ -1,0 +1,10 @@
+{
+  "versione": 4,
+  "file": "personaggio.glb",
+  "reference_pose": "idle",
+  "role": "sigma_admin",
+  "texture": 4096,
+  "rig": "Quaternius CC0, pesi anatomici e retarget globale",
+  "source": "works\\creative\\agenti_3d\\revisione_rig_v4\\superfici\\agente0\\statico.glb",
+  "animazioni_verificate": 9
+}

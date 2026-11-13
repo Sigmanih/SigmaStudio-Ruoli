@@ -1,0 +1,11 @@
+{
+  "versione": 4,
+  "file": "personaggio.glb",
+  "reference_pose": "idle",
+  "role": "sigma_hardware_engineer",
+  "texture": 4096,
+  "rig": "Quaternius CC0, pesi anatomici e retarget globale",
+  "source": "works\\creative\\agenti_3d\\revisione_rig_v4\\hardware\\statico.glb",
+  "animazioni_verificate": 9,
+  "foto": "immagine.png"
+}

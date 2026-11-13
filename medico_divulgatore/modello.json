@@ -1,5 +1,5 @@
 {
-  "versione": 2,
+  "versione": 4,
   "file": "personaggio.glb",
   "foto": "immagine.jpg",
   "foto_originale": "medico_ai.jpg",
@@ -8,5 +8,10 @@
   "generatore": "microsoft/TRELLIS-image-large (licenza MIT); figura intera con FLUX.2 klein 4B (Apache 2.0)",
   "scheletro": "Universal Animation Library di Quaternius (CC0)",
   "pipeline": "core/modules/sigma_creative_lab/three_d/locale/agenti.py",
-  "data": "2026-11-06"
+  "data": "2026-11-06",
+  "reference_pose": "idle",
+  "role": "medico_divulgatore",
+  "rig": "Quaternius CC0, pesi anatomici e retarget globale",
+  "source": "works\\creative\\agenti_3d\\revisione_rig_v4\\superfici\\medico_ai\\statico.glb",
+  "animazioni_verificate": 9
 }
